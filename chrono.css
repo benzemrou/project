@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(re.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.chrono{
+    background-color:  rgb(74, 138, 165);
+    width: 70%;
+    height: 50%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 35px 2px  rgb(64, 230, 255);
+}
+
+
+.tim{
+    color: white;
+    font-size: 370%;
+    border: 5px solid rgb(227, 227, 227);
+    width: 100%;padding: 2%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px; 
+}
+
+.fonc{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    border-radius: 15%;
+    margin-top: 10px;
+    margin-left: 11%;
+    margin-bottom: 5%;
+}
+#start:hover{
+    background-color: rgb(0, 255, 17);
+    color: rgb(0, 0, 0);
+}
+#stop:hover{
+    background-color: rgb(225, 254, 4);
+    color: rgb(0, 0, 0);
+}
+#reset:hover{
+    background-color: rgb(254, 4, 4);
+    color: rgb(0, 0, 0);
+}
+p{
+    font-size: 80%;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+h1{
+    display: flex;
+    position: absolute;
+    margin-bottom: 30%;
+    color: white;
+    font-style: italic;
+    font-size: 250%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    
+}
+span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

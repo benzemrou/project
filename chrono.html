@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronometre</title>
+    <link rel="stylesheet" href="chrono.css">
+</head>
+<body>
+    <h1>Chronometre:</h1>
+    <div class="chrono">
+        
+        <div class="tim">
+            <span id="he">00  </span> <p>H</p> :
+            <span id="min">00  </span> <p>MIN</p> :
+            <span id="se">00 </span> <p>S</p> :
+            <span id="ms" style=" display: inline;">00 </span> <p>MS</p>
+        </div>
+        <div class="fonc">
+            <button id="start" onclick="start()">start</button>
+            <button id="stop"  onclick="stop()">stop</button>
+            <button id="reset"  onclick="reset()">restart</button>
+        </div>
+    </div>
+
+
+
+    <script src="chrono.js"></script>
+</body>
+</html>
