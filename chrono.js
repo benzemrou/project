@@ -10,6 +10,7 @@ function updata() {
     Minutes.innerHTML = String(mn).padStart(2, '0');
     Seconds.innerHTML = String(s).padStart(2, '0');
     Ms.innerHTML = String(ms).padStart(2, '0');
+    
 }
 
 
